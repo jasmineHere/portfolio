@@ -1,0 +1,105 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #0f64b4;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31.93%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #8bafd1;
+}
+
+.navbar a.active {
+  background-color: #8bafd1;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+h1 {
+  color: #0f64b4;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.mycard {
+  border-radius: 5px;
+  width: 400px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+}
+
+.mycard:hover {
+  box-shadow: 10px 10px 20px #0f64b4;
+  color: #000000;
+}
+
+img {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.container {
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 15px;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+.active {
+  background-color: #a9c2d9;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+footer i {
+  padding: 10px;
+  color: white;
+}

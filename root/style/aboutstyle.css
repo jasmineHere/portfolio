@@ -1,0 +1,75 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #0f64b4;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31.93%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #8bafd1;
+}
+
+.navbar a.active {
+  background-color: #8bafd1;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+h1 {
+  color: #0f64b4;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+.active {
+  background-color: #a9c2d9;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+footer i {
+  padding: 10px;
+  color: white;
+}

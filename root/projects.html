@@ -3,18 +3,46 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/projectstyle.css">
     <title>Jasmine's portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <ul>
-        <li><a href="./index.html">Homepage</a></li>
-        <li><a href="./about.html">About Me</a></li>
-        <li class="active"><a href="./projects.html">Myprojects</a></li>
-    </ul>
-    <h1>MY PROJECTS</h1>
+    <div class="navbar">
+        <a href="./index.html"><strong>Home</strong></a>
+        <a href="./about.html"><strong>About</strong></a>
+        <a class="active" href="./projects.html"><strong>Projects</strong></a>
+    </div>
 
+    <div class="header">
+        <h1>Here are my projects!</h1>
+    </div>
+
+    <div class="project-cards">
+        <a class="card" href="#"
+            style="background-image: url(./images/digitalDoctorProject.png);">
+            <h3><strong>CrunchIt</strong></h3>
+        </a>
+        <a class="card" href="#" style="background-image: url(./images/crunchItProject.jpg);">
+            <h3><strong>SalonStyle</strong></h3>
+        </a>
+        <a class="card" href="#" style="background-image: url(./images/jobsProject.png);">
+            <h3><strong>TicTacToe</strong></h3>
+        </a>
+        <a class="card" href="#" style="background-image: url(./images/ticTacToeProject.jpg);">
+            <h3><strong>Calculator</strong></h3>
+        </a>
+    </div>
+
+    <footer>
+        <a href="https://github.com/jasmineHere" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/jasminemuman/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <i class="fa fa-twitter"></i>
+        <a href="mailto:jasminemuman21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        <br />
+       
+    </footer>
 </body>
 
 </html>
