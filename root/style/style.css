@@ -11,7 +11,7 @@
 .navbar a {
   float: left;
   padding: 10px;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 17px;
   width: 31.93%;
@@ -24,6 +24,7 @@
 
 .navbar a.active {
   background-color: #8bafd1;
+  color: #000000;
 }
 
 @media screen and (max-width: 500px) {
@@ -40,12 +41,8 @@ h1 {
 }
 
 h3 {
-  color: #ffffff;
+  color: #000000;
   text-align: center;
-}
-
-.container {
-  padding: 2px 16px;
 }
 
 .mycard {
@@ -55,6 +52,7 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
+  border-style: solid;
 }
 
 .mycard:hover {
@@ -64,6 +62,7 @@ h3 {
 
 img {
   border-radius: 5px 5px 0px 0px;
+  border-bottom: 2px solid #000000;
 }
 
 .container {
@@ -72,11 +71,12 @@ img {
   border-radius: 0px 0px 5px 5px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 15px;
+  padding: 2px 16px;
 }
 
 body {
   margin: 0px;
-  background-color: black;
+  background-color: #ffffff;
 }
 
 .active {
@@ -86,20 +86,20 @@ body {
 .header {
   padding: 40px;
   text-align: center;
-  background: black;
-  color: white;
+  background: #ffffff;
+  color: #000000;
   font-size: 20px;
 }
 
 footer {
   padding: 30px;
   text-align: center;
-  background-color: black;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   font-size: 30px;
 }
 
 footer i {
   padding: 10px;
-  color: white;
+  color: #000000;
 }
