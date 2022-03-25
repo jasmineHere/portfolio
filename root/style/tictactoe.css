@@ -11,7 +11,7 @@
 .navbar a {
   float: left;
   padding: 12px;
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   font-size: 17px;
   width: 31.66%;
@@ -41,38 +41,8 @@ h1 {
 }
 
 h3 {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
-}
-
-.mycard {
-  border-radius: 5px;
-  width: 400px;
-  align-items: center;
-  /* margin-left: auto;
-  margin-right: auto; */
-  margin: 20px;
-  background-color: #ffffff;
-  border-style: solid;
-}
-
-.mycard:hover {
-  box-shadow: 10px 10px 20px #0f64b4;
-  color: #000000;
-}
-
-img {
-  border-radius: 5px 5px 0px 0px;
-  border-bottom: 2px solid #000000;
-}
-
-.container {
-  height: auto;
-  background-color: #ffffff;
-  border-radius: 0px 0px 5px 5px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-size: 15px;
-  padding: 2px 16px;
 }
 
 body {

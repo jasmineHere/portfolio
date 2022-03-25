@@ -1,0 +1,308 @@
+* {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #0f64b4;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 31.66%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #8bafd1;
+}
+
+.navbar a.active {
+  background-color: #8bafd1;
+  color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+
+h1 {
+  color: #0f64b4;
+  text-align: center;
+}
+
+h3 {
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+}
+
+span {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+body {
+  margin: 0px;
+  background-color: #ffffff;
+}
+
+.active {
+  background-color: #a9c2d9;
+}
+
+.header {
+  padding: 35px;
+  text-align: center;
+  background: #ffffff;
+  color: #000000;
+  font-size: 20px;
+}
+
+.project-cards {
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  display: block;
+}
+
+.card {
+  width: 85%;
+  background-color: #cde1f5;
+  height: auto;
+  cursor: pointer;
+  margin: 10px;
+  position: relative;
+  transition: all 700ms ease-in;
+  border-radius: 10px 10px 10px 10px;
+  border-style: solid;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 15px #0f64b4;
+  color: #000000;
+}
+
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
+hr.new {
+  border-top: 1px dashed #000000;
+}
+
+.bar-section {
+  margin: 20px 0;
+}
+
+.skillBar {
+  width: 80%;
+  margin: 60px auto;
+  list-style: none;
+  align-items: flex-start;
+}
+
+.skillBar li {
+  margin: 30px 0;
+}
+
+.skillBar h3 {
+  font-weight: 300;
+  letter-spacing: 8px;
+}
+
+.bar {
+  margin: 5px 0;
+  background: transparent;
+  display: block;
+  height: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0.5px 0.5px 2px white;
+  cursor: pointer;
+}
+
+.bar span {
+  height: 5px;
+  float: left;
+  background: #0f64b4;
+}
+
+.html {
+  width: 75%;
+  animation: html 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.css {
+  width: 70%;
+  animation: css 3s;
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.javascript {
+  width: 65%;
+  animation: javascript 3s;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.java {
+  width: 65%;
+  animation: java 3s;
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.cplus {
+  width: 70%;
+  animation: cplus 3s;
+}
+
+@keyframes cplus {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.figma {
+  width: 60%;
+  animation: figma 3s;
+}
+
+@keyframes figma {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.adobexd {
+  width: 30%;
+  animation: adobexd 3s;
+}
+
+@keyframes adobexd {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+.android {
+  width: 50%;
+  animation: android 3s;
+}
+
+@keyframes android {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.ios {
+  width: 30%;
+  animation: ios 3s;
+}
+
+@keyframes ios {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 30%;
+  }
+}
+
+.react {
+  width: 50%;
+  animation: ios 3s;
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.mysql {
+  width: 50%;
+  animation: ios 3s;
+}
+
+@keyframes mysql {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 30px;
+}
+
+footer i {
+  padding: 10px;
+  color: #000000;
+}
