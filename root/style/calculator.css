@@ -45,6 +45,11 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
 body {
   margin: 0px;
   background-color: #ffffff;
